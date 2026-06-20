@@ -1,7 +1,11 @@
 # Automated-stove-shutoff
 An Arduino-based safety system that automatically shuts off a gas stove valve using a high-torque servo motor and a potentiometer-controlled countdown timer.
 # Smart Gas Stove Timer & Automated Shut-Off System
+# 📸 System Setup & Prototype
 
+Here is the functional hardware layout of the project, showcasing the control core, user input, and physical actuator link:
+
+![System Hardware Prototype](Circuit.png)
 A hardware-based safety solution designed to prevent kitchen accidents by automatically turning off a gas stove knob after a user-defined countdown timer expires. Built using an Arduino Uno/Nano, this system runs entirely offline for maximum reliability.
 
 ## 🚀 Features
@@ -43,7 +47,8 @@ To build this project from scratch, the following components are required:
 | **Buzzer (+)** | Positive Terminal | **D11** | High/Low Digital Output |
 
 ---
-
+## Block diagram 
+![System Hardware Prototype](blockdiagram.png)
 ## 💻 Software Logic & Code Structure
 The software is written in C++ using the Arduino IDE. It operates as a structured **state machine** divided into two core phases:
 
